@@ -5,6 +5,7 @@ namespace App\Repository;
 use App\Entity\CurrencyRate;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\EntityRepository;
+
 class CurrencyRateRepository
 {
     private EntityManagerInterface $em;
