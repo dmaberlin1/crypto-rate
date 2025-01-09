@@ -42,7 +42,7 @@ class CurrencyRateDto
         ];
     }
 
-    // Дополнительный метод для легкой создания DTO из массива
+    // Дополнительный метод для легкого создания DTO из массива
     public static function fromArray(array $data): self
     {
         return new self(
